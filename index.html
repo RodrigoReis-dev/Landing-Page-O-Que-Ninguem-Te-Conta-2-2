@@ -65,25 +65,24 @@
                 
                 <section class="section2">
 
-                    <form class="form"> <!----------- </ form  >  ------------>
+                    <form class="form" name="f_form" method="get" action="form.php"> <!----------- </ form  >  ------------>
                         <h2> Contato</h2>
                      
                        
-                        <input type="text" id="fname" name="fname" placeholder="Nome">
+                        <input type="text" id="fname" name="fname" maxlength="35" placeholder="Nome:">
     
                         <br> <br>
-                        <input type="email" id="email" name="email" placeholder="Email">
+                        <input type="email" id="femail" name="femail" maxlength="30" placeholder="Email:">
                         <br> <br>
                         
-                        <textarea name="textarea" id="textarea" cols="70" rows="20" >Conte aqui um pouco sobre você
-                        </textarea>
+                        <textarea name="textarea" id="textarea" cols="70" rows="20" >Conte aqui um pouco sobre você:</textarea>
                         
                         <br> <br>
                         <label for="disponibilidade">Sugira 2 datas</label>
                         <br>
-                        <input type="date" name="data" id="data">
+                        <input type="date" name="date" id="data">
                         <br>
-                        <input type="date" name="data2" id="data2">
+                        <input type="date" name="date2" id="data2">
 
                         <br> <br>
                         <label for="disponibilidade">Disponibilidade de vir a Hamilton?</label>
@@ -91,6 +90,7 @@
                         <br> <br>
     
                         <button type="submit" value="submit">Enviar</button>
+                        
                     </form> 
 
                     <picture>
