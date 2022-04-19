@@ -1,3 +1,3 @@
-# Landing-Page-O-Que-Ninguem-Te-Conta-2-2
+# Landing Page "O Que Ninguem Te Conta-Podcast"
 
- Landing page Oqntc Podcast
+https://oqntc.com.br/
